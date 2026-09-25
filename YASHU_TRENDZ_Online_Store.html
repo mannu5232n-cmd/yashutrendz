@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YASHU TRENDZ | Online Store</title>
+<meta name="description" content="YASHU TRENDZ online men's fashion store">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#090909;color:#f7f3e8;font-family:Montserrat,Arial,sans-serif}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(8,8,8,.95);backdrop-filter:blur(12px);border-bottom:1px solid #292113}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{font:700 25px 'Playfair Display';color:#e5bd62}.logo small{display:block;text-align:center;font:700 8px Montserrat;letter-spacing:3px;color:#999;margin-top:-2px}.navlinks{display:flex;gap:23px;font-size:12px}.navlinks a{color:#ddd;text-decoration:none}.navlinks a:hover{color:#e5bd62}.cartbtn{border:1px solid #b88a32;background:#17120a;color:#f1ca6c;border-radius:7px;padding:10px 14px;font-weight:800;cursor:pointer}.hero{padding:80px 0 65px;background:radial-gradient(circle at 80% 30%,#49371255,transparent 35%),linear-gradient(130deg,#090909,#15110a,#090909)}.tag,.kicker{color:#e5bd62;letter-spacing:3px;font-size:10px;font-weight:800}.hero h1{font:700 clamp(45px,8vw,82px)/.95 'Playfair Display';margin:16px 0}.hero h1 span{color:#e5bd62}.hero p{color:#aaa;max-width:520px}.btn{border:0;border-radius:7px;padding:13px 18px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-block}.gold{background:linear-gradient(135deg,#f1cf78,#b88427);color:#111}.outline{border:1px solid #b88a32;color:#e5bd62;background:transparent}section{padding:55px 0}.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px}.head h2{font:700 36px 'Playfair Display';margin:5px 0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.card{background:#111;border:1px solid #272727;border-radius:13px;overflow:hidden}.photo{height:250px;background:linear-gradient(145deg,#292929,#111);display:flex;align-items:center;justify-content:center;color:#777;font-size:11px}.body{padding:15px}.body h3{margin:0;font-size:14px}.price{margin:7px 0;color:#e5bd62;font-weight:800}.old{text-decoration:line-through;color:#666;font-size:11px;margin-left:5px}.size{width:100%;background:#0b0b0b;border:1px solid #333;color:#ddd;padding:9px;border-radius:6px;margin:8px 0}.add{width:100%;background:#d6aa4b;border:0;padding:10px;border-radius:6px;font-weight:800;cursor:pointer}.offer{padding:27px;border:1px solid #5a4219;border-radius:15px;background:linear-gradient(110deg,#1b1409,#101010);display:flex;align-items:center;justify-content:space-between;gap:20px}.offer strong{font:700 35px 'Playfair Display';color:#e5bd62}.offer p{color:#aaa;margin:5px 0}.drawer{position:fixed;inset:0;background:#0009;z-index:50;display:none}.drawer.open{display:block}.panel{position:absolute;right:0;top:0;height:100%;width:min(430px,94%);background:#101010;border-left:1px solid #493716;padding:22px;overflow:auto}.panel h2{font:700 30px 'Playfair Display';margin:0 0 15px}.close{float:right;background:none;border:0;color:#aaa;font-size:25px;cursor:pointer}.cartitem{display:flex;gap:12px;border-bottom:1px solid #292929;padding:13px 0}.thumb{width:65px;height:70px;background:#292929;display:flex;align-items:center;justify-content:center;color:#777;font-size:8px}.ci{flex:1}.ci b{font-size:13px}.ci small{color:#999}.qty{display:flex;gap:8px;align-items:center;margin-top:7px}.qty button{background:#222;border:1px solid #444;color:#fff;width:27px;height:27px;border-radius:5px}.checkout input,.checkout textarea{width:100%;margin:7px 0;padding:11px;border-radius:6px;border:1px solid #333;background:#090909;color:#fff;font-family:inherit}.checkout textarea{height:70px;resize:vertical}.total{display:flex;justify-content:space-between;font-weight:800;font-size:18px;margin:18px 0;color:#e5bd62}.notice{font-size:11px;color:#888;line-height:1.5;margin-top:10px}footer{border-top:1px solid #242424;padding:25px 0;color:#777;font-size:11px}@media(max-width:800px){.navlinks{display:none}.grid{grid-template-columns:repeat(2,1fr)}.photo{height:210px}.offer{display:block}.offer .btn{margin-top:15px}}@media(max-width:430px){.grid{gap:9px}.photo{height:190px}.body{padding:11px}.body h3{font-size:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#">YASHU TRENDZ<small>MEN'S WEAR</small></a>
+<nav class="navlinks"><a href="#products">Shop</a><a href="#offers">Offers</a><a href="#contact">Contact</a></nav>
+<button class="cartbtn" onclick="openCart()">🛒 Cart <span id="count">0</span></button>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<div class="tag">ONLINE STORE • SASARAM</div>
+<h1>SHOP YOUR<br><span>STYLE.</span></h1>
+<p>Trending men's fashion at pocket-friendly prices. Select your product, choose your size and place your order.</p>
+<div style="margin:22px 0;padding:16px 18px;border:1px solid #8f6a25;border-radius:10px;background:linear-gradient(100deg,#211705,#120f0a);max-width:520px">
+<div style="color:#f1ca6c;font-weight:800;font-size:15px">📸 FOLLOW @YASHUTRENDZ → GET ₹19 OFF</div>
+<div style="color:#aaa;font-size:11px;margin-top:5px">Minimum cart value ₹249 • Discount applies on final payment</div>
+</div>
+<button class="btn gold" onclick="document.querySelector('#products').scrollIntoView()">SHOP NOW</button>
+</div></section>
+
+<section id="offers"><div class="wrap"><div class="offer"><div><div class="kicker">SPECIAL DEAL</div><strong>STYLE UNDER ₹299</strong><p>New arrivals and everyday men's fashion.</p></div><button class="btn gold" onclick="document.querySelector('#products').scrollIntoView()">VIEW PRODUCTS</button></div></div></section>
+
+<section id="products"><div class="wrap">
+<div class="head"><div><div class="kicker">COLLECTION</div><h2>Shop Products</h2></div></div>
+<div class="grid" id="productGrid"></div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="offer"><div><div class="kicker">YASHU TRENDZ</div><strong>Order Online</strong><p>We will confirm your order after you submit it.</p></div><a class="btn outline" href="https://instagram.com/yashutrendz" target="_blank">INSTAGRAM</a></div></div></section>
+</main>
+
+<div class="drawer" id="drawer" onclick="outsideClose(event)">
+<div class="panel">
+<button class="close" onclick="closeCart()">×</button>
+<h2>Your Cart</h2>
+<div id="cartItems"></div>
+<div style="margin:14px 0;padding:13px;border:1px dashed #8f6a25;border-radius:8px;background:#151006">
+<label style="display:flex;gap:9px;align-items:center;font-size:12px;color:#e5bd62;font-weight:700;cursor:pointer">
+<input id="instaFollow" type="checkbox" onchange="renderCart()" style="accent-color:#d6aa4b;width:17px;height:17px">
+I FOLLOW @YASHUTRENDZ ON INSTAGRAM — APPLY ₹19 OFF
+</label>
+<div style="font-size:10px;color:#888;margin:6px 0 0 26px">₹19 discount unlocks automatically when cart value is ₹249 or more.</div>
+</div>
+<div id="discountLine" style="display:flex;justify-content:space-between;color:#73c88b;font-size:13px;margin:7px 0"></div>
+<div class="total"><span>Payable Total</span><span id="total">₹0</span></div>
+<div class="checkout">
+<h3>Delivery Details</h3>
+<input id="name" placeholder="Full Name">
+<input id="phone" placeholder="Mobile Number" inputmode="numeric">
+<textarea id="address" placeholder="Full Delivery Address"></textarea>
+<button class="btn gold" style="width:100%" onclick="placeOrder()">PLACE ORDER</button>
+<p class="notice">Demo checkout: this version collects the order details but does not charge a card/UPI yet. A real payment gateway can be connected next.</p>
+</div>
+</div></div>
+
+<footer><div class="wrap">© 2026 <b style="color:#e5bd62">YASHU TRENDZ</b> • Men's Wear • Sasaram</div></footer>
+
+<script>
+/* ===== EDIT PRODUCTS HERE ===== */
+const products=[
+ {id:1,name:"Premium T-Shirt",price:249,old:299,sizes:["M","L","XL","XXL"]},
+ {id:2,name:"Trendy Half Shirt",price:299,old:0,sizes:["M","L","XL","XXL"]},
+ {id:3,name:"Regular Fit Trouser",price:299,old:0,sizes:["30","32","34","36"]},
+ {id:4,name:"New Arrival T-Shirt",price:199,old:249,sizes:["M","L","XL","XXL"]}
+];
+/* ===== EDIT WHATSAPP NUMBER HERE ===== */
+const SHOP_WHATSAPP="919999999999";
+let cart=JSON.parse(localStorage.getItem("yt_cart")||"[]");
+
+function renderProducts(){
+ document.getElementById("productGrid").innerHTML=products.map(p=>`
+ <article class="card">
+  <div class="photo">PRODUCT PHOTO</div>
+  <div class="body"><h3>${p.name}</h3>
+  <div class="price">₹${p.price}${p.old?` <span class="old">₹${p.old}</span>`:""}</div>
+  <select class="size" id="size-${p.id}">${p.sizes.map(s=>`<option>${s}</option>`).join("")}</select>
+  <button class="add" onclick="add(${p.id})">ADD TO CART</button></div>
+ </article>`).join("");
+}
+function add(id){
+ const p=products.find(x=>x.id===id), size=document.getElementById("size-"+id).value;
+ const found=cart.find(x=>x.id===id&&x.size===size);
+ if(found) found.qty++; else cart.push({id,size,qty:1});
+ save();openCart();
+}
+function save(){localStorage.setItem("yt_cart",JSON.stringify(cart));updateCount();renderCart()}
+function updateCount(){document.getElementById("count").textContent=cart.reduce((a,x)=>a+x.qty,0)}
+function getTotals(){
+ let subtotal=cart.reduce((sum,x)=>sum+products.find(p=>p.id===x.id).price*x.qty,0);
+ let follow=document.getElementById("instaFollow");
+ let discount=(subtotal>=249 && follow && follow.checked)?19:0;
+ return {subtotal,discount,total:subtotal-discount};
+}
+function renderCart(){
+ const box=document.getElementById("cartItems");
+ if(!cart.length){
+  box.innerHTML='<p style="color:#888">Your cart is empty.</p>';
+  document.getElementById("total").textContent="₹0";
+  document.getElementById("discountLine").style.display="none";
+  return;
+ }
+ box.innerHTML=cart.map((x,i)=>{
+  let p=products.find(q=>q.id===x.id);
+  return `<div class="cartitem"><div class="thumb">PHOTO</div><div class="ci"><b>${p.name}</b><br><small>Size: ${x.size} • ₹${p.price}</small><div class="qty"><button onclick="change(${i},-1)">−</button><span>${x.qty}</span><button onclick="change(${i},1)">+</button><button onclick="removeItem(${i})" style="margin-left:auto;color:#e88">Remove</button></div></div></div>`
+ }).join("");
+ const t=getTotals();
+ document.getElementById("total").textContent="₹"+t.total;
+ const dl=document.getElementById("discountLine");
+ if(t.discount){dl.style.display="flex";dl.innerHTML=`<span>Instagram Follow Discount</span><span>−₹19</span>`}
+ else {dl.style.display="none";dl.innerHTML=""}
+}
+function change(i,d){cart[i].qty+=d;if(cart[i].qty<=0)cart.splice(i,1);save()}
+function removeItem(i){cart.splice(i,1);save()}
+function openCart(){document.getElementById("drawer").classList.add("open");renderCart()}
+function closeCart(){document.getElementById("drawer").classList.remove("open")}
+function outsideClose(e){if(e.target.id==="drawer")closeCart()}
+function placeOrder(){
+ if(!cart.length)return alert("Cart is empty.");
+ const name=document.getElementById("name").value.trim(),phone=document.getElementById("phone").value.trim(),address=document.getElementById("address").value.trim();
+ if(!name||!phone||!address)return alert("Please fill Name, Mobile and Address.");
+ if(!/^[0-9]{10}$/.test(phone))return alert("Please enter a valid 10-digit mobile number.");
+ let t=getTotals(); let total=t.total;
+ let lines=cart.map(x=>{let p=products.find(p=>p.id===x.id);return `${p.name} | Size ${x.size} | Qty ${x.qty} | ₹${p.price*x.qty}`}).join("%0A");
+ let msg=`*YASHU TRENDZ ORDER*%0A%0A${lines}%0A%0ASubtotal: ₹${t.subtotal}%0AInstagram Follow Discount: −₹${t.discount}%0A*Payable: ₹${total}*%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(phone)}%0AAddress: ${encodeURIComponent(address)}`;
+ if(t.discount===19){
+  msg += "%0A%0AInstagram Follow Offer: Customer confirmed follow.";
+}
+window.open(`https://wa.me/${SHOP_WHATSAPP}?text=${msg}`,"_blank");
+}
+renderProducts();updateCount();renderCart();
+</script>
+</body></html>
